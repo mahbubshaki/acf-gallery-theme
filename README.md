@@ -1,6 +1,6 @@
-#🖼️ ACF Gallery Section – WordPress Custom Post Type
-A lightweight WordPress theme with a custom gallery post type powered by ACF Free.
+# 🖼️ ACF Gallery Section – WordPress Custom Post Type
 
+A lightweight WordPress theme with a custom gallery post type powered by ACF Free.
 
 This project showcases a **custom image gallery section** in WordPress using **Advanced Custom Fields (ACF Free)** and **Custom Post Type (CPT)** — ideal for client portfolios, project showcases, and visual content needs.
 
@@ -19,11 +19,9 @@ This project showcases a **custom image gallery section** in WordPress using **A
 
 ## 🧩 ACF Structure
 
-- **Custom Post Type:** `gallery`
-- **ACF Fields:**
-  - `gallery_image` (Image)
-  - `caption` (Text)
-  - `alt_text` (Text)
+- `gallery_image` – *Image*
+- `caption` – *Text*
+- `alt_text` – *Text*
 
 ---
 
@@ -42,6 +40,8 @@ This project showcases a **custom image gallery section** in WordPress using **A
 3. Import ACF fields (JSON included)
 4. Upload gallery items from the new **Gallery** CPT in admin panel
 
+📦 Included: `acf-gallery-fields.json` (for easy import)
+
 ---
 
 ## 📬 Need a similar gallery section for your site?
@@ -55,4 +55,16 @@ Let's work together!
 
 ## 📁 Project Structure
 
-
+```
+acf-gallery-theme/
+├── functions.php
+├── index.php
+├── single-gallery.php
+├── style.css
+├── template-parts/
+│   └── content-gallery.php
+└── screenshots/
+    ├── theme-structure.png
+    ├── acf-fields.png
+    └── frontend-ui.png
+```
