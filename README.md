@@ -59,12 +59,12 @@ Let's work together!
 acf-gallery-theme/
 ├── functions.php
 ├── index.php
+├── archive-gallery.php
 ├── single-gallery.php
 ├── style.css
-├── template-parts/
-│   └── content-gallery.php
 └── screenshots/
     ├── theme-structure.png
     ├── acf-fields.png
     └── frontend-ui.png
+```
 ```
